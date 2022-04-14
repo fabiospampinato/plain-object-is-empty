@@ -2,7 +2,7 @@
   "name": "plain-object-is-empty",
   "repository": "github:fabiospampinato/plain-object-is-empty",
   "description": "Extremely fast function that checks if a plain object is empty.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
