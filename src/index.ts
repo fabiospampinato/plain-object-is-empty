@@ -1,13 +1,19 @@
 
-/* PLAIN OBJECT IS EMPTY */
+/* MAIN */
 
-function isEmpty ( x: any ): boolean {
+const isEmpty = ( object: Record<string | number | symbol, unknown> ): boolean => {
 
-  for ( const key in x ) return false;
+  for ( const key in object ) {
+
+    if ( !object.hasOwnProperty ( key ) ) continue;
+
+    return false;
+
+  }
 
   return true;
 
-}
+};
 
 /* EXPORT */
 

@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-import {describe} from 'ava-spec';
-import {default as isEmpty} from '../dist';
+import {describe} from 'fava';
+import isEmpty from '../dist/index.js';
 
-/* PLAIN OBJECT IS EMPTY */
+/* MAIN */
 
 describe ( 'Plain Object Is Empty', it => {
 
