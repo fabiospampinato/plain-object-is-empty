@@ -6,7 +6,7 @@ import isEmpty from '../dist/index.js';
 
 /* MAIN */
 
-benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
+benchmark.config ({
   iterations: 1_000_000
 });
 
